@@ -15,6 +15,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+gem 'bigdecimal', '1.3.5'
+
 gem 'simple_form'
 gem 'devise'
 gem "paperclip", "~> 6.0.0"
@@ -28,6 +30,7 @@ gem 'aws-sdk'
 gem 'mail_form'
 gem 'jquery-ui-rails'
 gem 'stripe'
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 group :development, :test do
   gem 'byebug', platform: :mri
