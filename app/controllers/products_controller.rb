@@ -26,7 +26,6 @@ class ProductsController < ApplicationController
 	end
 
 	def create
-		byebug
 		@product = current_user.products.build(products_params)
 		
 		respond_to do |format|
